@@ -4,14 +4,13 @@ import {
   BrowserRouter,
   createBrowserRouter,
   Route,
-  RouterProvider,
   Routes,
 } from "react-router-dom";
 
 import AllMeetupsPage from "./pages/AllMeetups";
 import NewMeetupPage from "./pages/NewMeetup";
 import FavoritesPage from "./pages/Favorites";
-import MainNavigation from "./components/layout/MainNavigation/MainNavigation";
+import Layout from "./components/layout/Layout";
 
 /**
  *
@@ -58,10 +57,18 @@ export default function LessionTwo() {
     //   <RouterProvider router={router} />
     // </React.StrictMode>
 
-    // Other way to implement react router
+    /**
+     *  Other way to implement Router config
+     *
+     *    @BrowserRouter
+     *      + BrowserRouter is a router implementation that uses the HTML5 history API to keep
+     *        your UI in sync with the URL. It is the parent component used to store all other
+     *        components.
+     *
+     *
+     */
     <BrowserRouter>
-      <div>
-        <MainNavigation />
+      <Layout>
         <Routes>
           <Route path="/">
             <Route index exact element={<AllMeetupsPage />} />
@@ -69,7 +76,7 @@ export default function LessionTwo() {
             <Route path="favorites" exact element={<FavoritesPage />} />
           </Route>
         </Routes>
-      </div>
+      </Layout>
     </BrowserRouter>
   );
 }
