@@ -65,7 +65,9 @@ export default function LessionTwo() {
      *        your UI in sync with the URL. It is the parent component used to store all other
      *        components.
      *
+     *    @Routes
      *
+     *    @Route
      */
     <BrowserRouter>
       <Layout>
