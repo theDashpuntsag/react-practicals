@@ -3,7 +3,7 @@ import Backdrop from "./Backdrop";
 import Modal from "./Modal";
 
 /**
- *    + Componenet
+ *    + Component
  *       This is an common react function component.
  *     - Components are higly reusable.
  *     - JSX files(or components) are treated as a simple HTML element
