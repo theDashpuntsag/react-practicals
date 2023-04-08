@@ -24,8 +24,8 @@ import LessionTwo from "./02RoutingAndNaviagtion/LessonTwo";
  *      constant root variable.
  *    - And then assiging <App /> component as root variable's child :p
  */
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<LessionTwo />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<LessionOne />);
 
 // --------------------------------------------------------------------------------------------
 
@@ -38,8 +38,8 @@ import LessionTwo from "./02RoutingAndNaviagtion/LessonTwo";
  *
  *
  */
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<LessionTwo />);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<LessionTwo />);
 
 // --------------------------------------------------------------------------------------------
 
