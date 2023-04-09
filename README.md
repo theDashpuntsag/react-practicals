@@ -18,6 +18,8 @@ React.js library is designs simple view for each state in your application, and 
 
 ## Folder & file structure explained
 
+When working on large projects, structuring your code by categorizing and naming them properly is crucial. This section aims to provide you with a brief explanation of the best approach to follow when organizing your React.js project. Here's a basic explanation of a typical React folder and file structure:
+
 ```
 |-- public
 |-- src/
@@ -50,6 +52,9 @@ React.js library is designs simple view for each state in your application, and 
 ├── index.css
 └── serviceWorker.js
 ```
+
+- **public folder**: Here is where all the static assets that are used by the appication such as images, fonts and HTML files. The content of `public` folder are not processed by the build tools, but instead are directly coppied into the build folder during the build process. `public` folder usually contains `index.html` file which is the main HTML file that serves as the entry point for the React application. It contains a div element with an id of root, which is where your React components will be rendered.
+-
 
 ## How React.js works
 
