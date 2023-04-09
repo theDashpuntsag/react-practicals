@@ -16,9 +16,42 @@ React.Js is a declarative, efficient and flexible Javascipt library for frontend
 
 React.js library is designs simple view for each state in your application, and It will efficiently update and render just the right component when your data is changed.
 
+## Folder & file structure explained
+
+|-- public
+|-- src/
+├── components/
+│ ├── ComponentA/
+│ │ ├── ComponentA.js
+│ │ ├── ComponentA.css
+│ │ └── ComponentA.test.js
+│ ├── ComponentB/
+│ │ ├── ComponentB.js
+│ │ ├── ComponentB.css
+│ │ └── ComponentB.test.js
+│ └── index.js
+├── pages/
+│ ├── PageA/
+│ │ ├── PageA.js
+│ │ ├── PageA.css
+│ │ └── PageA.test.js
+│ ├── PageB/
+│ │ ├── PageB.js
+│ │ ├── PageB.css
+│ │ └── PageB.test.js
+│ └── index.js
+├── utils/
+│ ├── helperFunctions.js
+│ ├── api.js
+│ └── constants.js
+├── App.js
+├── index.js
+├── index.css
+└── serviceWorker.js
+
 ## How React.js works
 
-## Folder & file structure explained
+When react code is executed index.js in the src folder would be first code to run
 
 ## Run the project
 
