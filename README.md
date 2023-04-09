@@ -18,17 +18,27 @@ React.js library is designs simple view for each state in your application, and 
 
 ## How React.js works
 
+## Folder & file structure explained
+
 ## Run the project
+
+To install node packages:
+
+```
+    npm install
+```
 
 Simply run following command:
 
-    // Installing Node modules
-    npm install
+```
+    npm run dev
+```
 
-    // Starting react
-    npm start
+## Experience
 
-### Making swiper in react
+### Setting up tailwindcss into your react.js project
+
+### Swiper in react
 
 Swiper is one of the most simle yet most useful feature of a web application. There are many ways to implement swiper in web and one of those ways is using react/swiper library
 
