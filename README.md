@@ -18,6 +18,7 @@ React.js library is designs simple view for each state in your application, and 
 
 ## Folder & file structure explained
 
+```
 |-- public
 |-- src/
 ├── components/
@@ -48,6 +49,7 @@ React.js library is designs simple view for each state in your application, and 
 ├── index.js
 ├── index.css
 └── serviceWorker.js
+```
 
 ## How React.js works
 
