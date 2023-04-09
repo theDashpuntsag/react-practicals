@@ -73,7 +73,13 @@ Also there are other optional files and folders. But these are the main and most
 
 ## How React.js works
 
-When react code is executed index.js in the src folder would be first code to run
+React.js library works by using virtual DOM, components, and a unidirectional data flow to create efficient and scalable user interfaces.
+
+1. Components:
+2. JSX sytnax:
+3. Virtual DOM:
+4. Unidirectional data flow:
+5. State management:
 
 ## Run the project
 
